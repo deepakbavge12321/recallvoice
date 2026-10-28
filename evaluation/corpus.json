@@ -1,0 +1,119 @@
+{
+  "version": "recallvoice-corpus-1",
+  "facts": [
+    {
+      "label": "bike",
+      "speaker": "user",
+      "text": "I keep my folding bicycle in basement locker 42.",
+      "question": "Where do I store my bike?"
+    },
+    {
+      "label": "choir",
+      "speaker": "user",
+      "text": "My choir rehearses on Wednesday evenings at Riverton Hall.",
+      "question": "When and where do I practise singing?"
+    },
+    {
+      "label": "starter",
+      "speaker": "user",
+      "text": "I named my sourdough starter Nimbus.",
+      "question": "What name did I give the bread starter?"
+    },
+    {
+      "label": "bench",
+      "speaker": "assistant",
+      "text": "Use tung oil to finish the oak bench you are restoring.",
+      "question": "Which oil was recommended for my wooden bench?"
+    },
+    {
+      "label": "tomatoes",
+      "speaker": "user",
+      "text": "The tomatoes in my rooftop garden are Black Krim.",
+      "question": "Which tomato variety am I growing?"
+    },
+    {
+      "label": "games",
+      "speaker": "user",
+      "text": "Board game night happens on the first Sunday of every month.",
+      "question": "When is our tabletop games gathering?"
+    },
+    {
+      "label": "poster",
+      "speaker": "user",
+      "text": "My conference poster explains low-power environmental sensors.",
+      "question": "What is the subject of my research poster?"
+    },
+    {
+      "label": "lake",
+      "speaker": "user",
+      "text": "Our astronomy group will observe the stars beside Merrow Lake.",
+      "question": "Where is our stargazing outing?"
+    },
+    {
+      "label": "pottery",
+      "speaker": "assistant",
+      "text": "Leena will teach your pottery course this autumn.",
+      "question": "Who is teaching me ceramics?"
+    },
+    {
+      "label": "gift",
+      "speaker": "user",
+      "text": "I plan to give Dad a birch birdhouse for his birthday.",
+      "question": "What birthday present did I choose for my father?"
+    },
+    {
+      "label": "club",
+      "speaker": "user",
+      "text": "Our reading club selected The Dispossessed for next month.",
+      "question": "Which novel will my reading group discuss?"
+    },
+    {
+      "label": "scope",
+      "speaker": "assistant",
+      "text": "Your telescope calibration appointment is Thursday at eight in the evening.",
+      "question": "When is the telescope being calibrated?"
+    }
+  ],
+  "alias_cases": [
+    {
+      "before": "Please open Cedar.",
+      "after": "Please open Seydra."
+    },
+    {
+      "before": "CEDAR is selected",
+      "after": "Seydra is selected"
+    },
+    {
+      "before": "cedarwood stays cedarwood",
+      "after": "cedarwood stays cedarwood"
+    },
+    {
+      "before": "Cedar_2 is an identifier",
+      "after": "Cedar_2 is an identifier"
+    },
+    {
+      "before": "(cedar), cedar!",
+      "after": "(Seydra), Seydra!"
+    },
+    {
+      "before": "Acédar and cedar",
+      "after": "Acédar and Seydra"
+    },
+    {
+      "before": "cedar’s dashboard",
+      "after": "Seydra’s dashboard"
+    },
+    {
+      "before": "",
+      "after": ""
+    },
+    {
+      "before": "cedars are unrelated",
+      "after": "cedars are unrelated"
+    },
+    {
+      "before": "Cedar + cedarwood",
+      "after": "Seydra + cedarwood"
+    }
+  ]
+}

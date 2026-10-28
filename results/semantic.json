@@ -1,0 +1,269 @@
+{
+  "kind": "real-model-source-benchmark",
+  "measured_at": "2026-10-28T06:13:12.604051+00:00",
+  "corpus_version": "recallvoice-corpus-1",
+  "python": "3.13.1",
+  "dataset_sha256": "7d3e532075217b2b50d94be21bdd51e6760e7c69dceef2c9917448a45b6126b8",
+  "packages": {
+    "numpy": "2.3.1",
+    "sentence-transformers": "6.2.0",
+    "torch": "2.10.0"
+  },
+  "query_count": 12,
+  "threshold": -1.0,
+  "results": [
+    {
+      "label": "bike",
+      "question": "Where do I store my bike?",
+      "expected": 1,
+      "ranked_ids": [
+        1,
+        13,
+        9,
+        8,
+        18
+      ],
+      "scores": [
+        0.6233938932418823,
+        0.12819601595401764,
+        0.12402792274951935,
+        0.07724425941705704,
+        0.061655193567276
+      ]
+    },
+    {
+      "label": "choir",
+      "question": "When and where do I practise singing?",
+      "expected": 3,
+      "ranked_ids": [
+        3,
+        7,
+        17,
+        23,
+        2
+      ],
+      "scores": [
+        0.5753201246261597,
+        0.21428489685058594,
+        0.21428489685058594,
+        0.21428489685058594,
+        0.14255625009536743
+      ]
+    },
+    {
+      "label": "starter",
+      "question": "What name did I give the bread starter?",
+      "expected": 5,
+      "ranked_ids": [
+        5,
+        19,
+        7,
+        17,
+        23
+      ],
+      "scores": [
+        0.6513220071792603,
+        0.24532513320446014,
+        0.17604003846645355,
+        0.17604003846645355,
+        0.17604003846645355
+      ]
+    },
+    {
+      "label": "bench",
+      "question": "Which oil was recommended for my wooden bench?",
+      "expected": 8,
+      "ranked_ids": [
+        8,
+        7,
+        17,
+        23,
+        19
+      ],
+      "scores": [
+        0.6407572031021118,
+        0.18537276983261108,
+        0.18537276983261108,
+        0.18537276983261108,
+        0.16584980487823486
+      ]
+    },
+    {
+      "label": "tomatoes",
+      "question": "Which tomato variety am I growing?",
+      "expected": 9,
+      "ranked_ids": [
+        9,
+        5,
+        24,
+        18,
+        2
+      ],
+      "scores": [
+        0.44254088401794434,
+        0.17213116586208344,
+        0.15549150109291077,
+        0.14421480894088745,
+        0.13690434396266937
+      ]
+    },
+    {
+      "label": "games",
+      "question": "When is our tabletop games gathering?",
+      "expected": 11,
+      "ranked_ids": [
+        11,
+        3,
+        18,
+        24,
+        19
+      ],
+      "scores": [
+        0.5341845750808716,
+        0.2719089388847351,
+        0.2627139389514923,
+        0.22780296206474304,
+        0.22083017230033875
+      ]
+    },
+    {
+      "label": "poster",
+      "question": "What is the subject of my research poster?",
+      "expected": 13,
+      "ranked_ids": [
+        13,
+        2,
+        4,
+        6,
+        10
+      ],
+      "scores": [
+        0.3108571171760559,
+        0.1998785436153412,
+        0.1998785436153412,
+        0.1998785436153412,
+        0.1998785436153412
+      ]
+    },
+    {
+      "label": "lake",
+      "question": "Where is our stargazing outing?",
+      "expected": 15,
+      "ranked_ids": [
+        15,
+        11,
+        24,
+        19,
+        3
+      ],
+      "scores": [
+        0.45945045351982117,
+        0.30323177576065063,
+        0.2978198528289795,
+        0.2581341862678528,
+        0.17972977459430695
+      ]
+    },
+    {
+      "label": "pottery",
+      "question": "Who is teaching me ceramics?",
+      "expected": 18,
+      "ranked_ids": [
+        18,
+        3,
+        5,
+        13,
+        19
+      ],
+      "scores": [
+        0.5645517110824585,
+        0.2018277645111084,
+        0.14124321937561035,
+        0.14106397330760956,
+        0.12256021052598953
+      ]
+    },
+    {
+      "label": "gift",
+      "question": "What birthday present did I choose for my father?",
+      "expected": 19,
+      "ranked_ids": [
+        19,
+        7,
+        17,
+        23,
+        5
+      ],
+      "scores": [
+        0.5275420546531677,
+        0.17190350592136383,
+        0.17190350592136383,
+        0.17190350592136383,
+        0.13230681419372559
+      ]
+    },
+    {
+      "label": "club",
+      "question": "Which novel will my reading group discuss?",
+      "expected": 21,
+      "ranked_ids": [
+        21,
+        7,
+        17,
+        23,
+        18
+      ],
+      "scores": [
+        0.3655579686164856,
+        0.1981825828552246,
+        0.1981825828552246,
+        0.1981825828552246,
+        0.16870903968811035
+      ]
+    },
+    {
+      "label": "scope",
+      "question": "When is the telescope being calibrated?",
+      "expected": 24,
+      "ranked_ids": [
+        24,
+        15,
+        21,
+        2,
+        4
+      ],
+      "scores": [
+        0.7362194061279297,
+        0.3853023648262024,
+        0.16227316856384277,
+        0.1604408621788025,
+        0.1604408621788025
+      ]
+    }
+  ],
+  "alias_accuracy": 1.0,
+  "alias_cases": 10,
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2@unspecified:675124690d56e46f07b91be24721b00328dcf35c9962067d94d2894dc6970402",
+  "indexed_sources": 24,
+  "cold_index_ms": 25731.383299993468,
+  "recall_at_1": 1,
+  "recall_at_5": 1,
+  "retrieval_mean_ms": 16.78590000058951,
+  "retrieval_median_ms": 15.272250006091781,
+  "retrieval_samples_ms": [
+    16.38970000203699,
+    14.154800010146573,
+    13.794500002404675,
+    13.85160000063479,
+    13.438699999824166,
+    13.905300002079457,
+    13.744600000791252,
+    18.54579999053385,
+    26.67789999395609,
+    21.198300004471093,
+    18.77809999859892,
+    16.951500001596287
+  ],
+  "current_session_only_recall": 0.0,
+  "status": "completed"
+}

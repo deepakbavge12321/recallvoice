@@ -1,0 +1,14 @@
+database = ".local/recallvoice.sqlite3"
+model_dir = ".local/models"
+ollama_url = "http://127.0.0.1:11434"
+chat_model = "qwen2.5:1.5b"
+embedding_model = "sentence-transformers/all-MiniLM-L6-v2"
+embedding_revision = ""
+whisper_size = "base"
+whisper_device = "cpu"
+speech_providers = ["offline", "edge"]
+edge_voice = "en-GB-SoniaNeural"
+retrieval_count = 5
+similarity_floor = 0.2
+evidence_characters = 3000
+request_timeout = 180

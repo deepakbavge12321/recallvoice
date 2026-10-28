@@ -1,0 +1,64 @@
+# Python environments, caches and build output
+.venv/
+venv/
+env/
+.env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.whl
+
+# Machine configuration, credentials and personal data
+.local/
+settings.toml
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+credentials*.json
+*.pem
+*.key
+/personal-data/
+/recordings/
+/uploads/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3*
+*.log
+*.pid
+
+# Downloaded model assets
+/.cache/
+/models/
+/.models/
+*.safetensors
+*.gguf
+*.onnx
+*.pt
+*.pth
+*.bin
+
+# Generated/recorded audio; benchmark JSON evidence stays versioned
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.webm
+*.aiff
+*.wma
+
+# Editor and OS noise
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

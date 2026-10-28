@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recallvoice"
+version = "0.1.0"
+description = "A local voice assistant with source-grounded memory and personal speech vocabulary"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "streamlit>=1.45,<2", "numpy>=1.26,<3", "requests>=2.31,<3",
+  "faster-whisper==1.2.1", "av>=16,<19", "sentence-transformers>=3.4,<7",
+  "pyttsx3>=2.99,<3", "edge-tts>=7,<8"
+]
+
+[project.optional-dependencies]
+dev = ["ruff==0.17.3"]
+
+[project.scripts]
+recallvoice-prepare = "recallvoice.prepare:main"
+recallvoice-benchmark = "recallvoice.benchmark:main"
+recallvoice-voice-check = "recallvoice.voice_check:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+recallvoice = ["schema.sql"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

@@ -1,0 +1,50 @@
+test_alias_chains_and_casefold_duplicates_rejected (test_acceptance.AcceptanceTests.test_alias_chains_and_casefold_duplicates_rejected) ... ok
+test_all_speech_failures_preserve_text_turn (test_acceptance.AcceptanceTests.test_all_speech_failures_preserve_text_turn) ... ok
+test_audio_only_correction_and_speech_only_respelling (test_acceptance.AcceptanceTests.test_audio_only_correction_and_speech_only_respelling) ... ok
+test_bad_input_does_not_open_an_attempt (test_acceptance.AcceptanceTests.test_bad_input_does_not_open_an_attempt) ... ok
+test_clear_conversations_preserves_preferences (test_acceptance.AcceptanceTests.test_clear_conversations_preserves_preferences) ... ok
+test_combining_marks_and_connectors_extend_word_boundaries (test_acceptance.AcceptanceTests.test_combining_marks_and_connectors_extend_word_boundaries) ... ok
+test_configuration_paths_and_environment (test_acceptance.AcceptanceTests.test_configuration_paths_and_environment) ... ok
+test_configuration_rejects_unknown_or_invalid_values (test_acceptance.AcceptanceTests.test_configuration_rejects_unknown_or_invalid_values) ... ok
+test_conversation_deletion_cascades_observations (test_acceptance.AcceptanceTests.test_conversation_deletion_cascades_observations) ... ok
+test_cross_conversation_memory_with_provenance (test_acceptance.AcceptanceTests.test_cross_conversation_memory_with_provenance) ... ok
+test_damaged_vector_payload_requires_rebuild (test_acceptance.AcceptanceTests.test_damaged_vector_payload_requires_rebuild) ... ok
+test_deleted_exchange_is_not_silently_replayed (test_acceptance.AcceptanceTests.test_deleted_exchange_is_not_silently_replayed) ... ok
+test_deleted_user_source_redacts_attempt_transcripts (test_acceptance.AcceptanceTests.test_deleted_user_source_redacts_attempt_transcripts) ... ok
+test_different_encoders_have_separate_indexes (test_acceptance.AcceptanceTests.test_different_encoders_have_separate_indexes) ... ok
+test_evidence_json_respects_escaping_budget (test_acceptance.AcceptanceTests.test_evidence_json_respects_escaping_budget) ... ok
+test_failed_atomic_commit_leaves_no_half_dialogue (test_acceptance.AcceptanceTests.test_failed_atomic_commit_leaves_no_half_dialogue) ... ok
+test_failed_generation_records_attempt_and_stage (test_acceptance.AcceptanceTests.test_failed_generation_records_attempt_and_stage) ... ok
+test_failed_rebuild_keeps_existing_vectors (test_acceptance.AcceptanceTests.test_failed_rebuild_keeps_existing_vectors) ... ok
+test_incompatible_vector_is_explicit (test_acceptance.AcceptanceTests.test_incompatible_vector_is_explicit) ... ok
+test_invalid_encoder_matrix_cannot_be_stored (test_acceptance.AcceptanceTests.test_invalid_encoder_matrix_cannot_be_stored) ... ok
+test_literal_overlapping_and_non_cascading_rules (test_acceptance.AcceptanceTests.test_literal_overlapping_and_non_cascading_rules) ... ok
+test_missing_embedding_degrades_but_keeps_answer (test_acceptance.AcceptanceTests.test_missing_embedding_degrades_but_keeps_answer) ... ok
+test_pcm_validation_before_model_import (test_acceptance.AcceptanceTests.test_pcm_validation_before_model_import) ... ok
+test_provider_chain_falls_back_with_mime_metadata (test_acceptance.AcceptanceTests.test_provider_chain_falls_back_with_mime_metadata) ... ok
+test_recent_sources_are_excluded_from_retrieval (test_acceptance.AcceptanceTests.test_recent_sources_are_excluded_from_retrieval) ... ok
+test_rule_crud_and_independent_pronunciation (test_acceptance.AcceptanceTests.test_rule_crud_and_independent_pronunciation) ... ok
+test_rule_validation_and_missing_edit (test_acceptance.AcceptanceTests.test_rule_validation_and_missing_edit) ... ok
+test_running_submission_cannot_be_duplicated (test_acceptance.AcceptanceTests.test_running_submission_cannot_be_duplicated) ... ok
+test_schema_future_version_is_rejected (test_acceptance.AcceptanceTests.test_schema_future_version_is_rejected) ... ok
+test_source_deleted_during_encoding_is_not_resurrected (test_acceptance.AcceptanceTests.test_source_deleted_during_encoding_is_not_resurrected) ... ok
+test_source_deletion_cascades (test_acceptance.AcceptanceTests.test_source_deletion_cascades) ... ok
+test_spoken_preference_failure_retries_original_answer (test_acceptance.AcceptanceTests.test_spoken_preference_failure_retries_original_answer) ... ok
+test_stage_timings_are_nonnegative_and_disabled_stages_absent (test_acceptance.AcceptanceTests.test_stage_timings_are_nonnegative_and_disabled_stages_absent) ... ok
+test_storage_reopens_in_order (test_acceptance.AcceptanceTests.test_storage_reopens_in_order) ... ok
+test_submission_key_rejects_changed_input (test_acceptance.AcceptanceTests.test_submission_key_rejects_changed_input) ... ok
+test_submission_replay_does_not_generate_twice (test_acceptance.AcceptanceTests.test_submission_replay_does_not_generate_twice) ... ok
+test_sync_is_idempotent_and_rebuild_is_complete (test_acceptance.AcceptanceTests.test_sync_is_idempotent_and_rebuild_is_complete) ... ok
+test_unicode_adjacency_and_punctuation (test_acceptance.AcceptanceTests.test_unicode_adjacency_and_punctuation) ... ok
+test_vector_only_clear_preserves_sources (test_acceptance.AcceptanceTests.test_vector_only_clear_preserves_sources) ... ok
+test_vectors_are_searchable_after_store_and_service_reopen (test_acceptance.AcceptanceTests.test_vectors_are_searchable_after_store_and_service_reopen) ... ok
+test_memory_library_search_delete_and_index_clear (test_interface.InterfaceIntegration.test_memory_library_search_delete_and_index_clear) ... 2026-10-28 19:13:30.476 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_text_turn_conversation_switch_and_vocabulary_forms (test_interface.InterfaceIntegration.test_text_turn_conversation_switch_and_vocabulary_forms) ... 2026-10-28 19:13:30.986 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_actual_http_contract_and_failure_mapping (test_transport.TransportIntegration.test_actual_http_contract_and_failure_mapping) ... ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 4.808s
+
+OK

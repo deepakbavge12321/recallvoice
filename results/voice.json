@@ -1,0 +1,236 @@
+{
+  "kind": "real-adapter-voice-check",
+  "measured_at": "2026-10-28T12:25:53.482472+00:00",
+  "input_source": "Synthetic OS speech, not a microphone/human recording",
+  "status": "passed",
+  "model": "qwen2.5:1.5b",
+  "turns": [
+    {
+      "conversation": "537f2a1b385d4d7286f97c3638010b3e",
+      "submission": "fa66b36ffcfe46d8b58b64d97cef172c",
+      "intended": "For the project Cedar, please remember that our verification phrase is velvet compass.",
+      "input": {
+        "provider": "offline",
+        "mime": "audio/wav",
+        "bytes": 297392,
+        "frames": 73,
+        "seconds": 6.742539682539688,
+        "non_silent": true,
+        "sha256": "19564a0a92d0ecdbb4ebe828de67b0d7f2e99476f5bff474b7037fa03ae36a57"
+      },
+      "history_before": [],
+      "recognized": "For the project cedar, please remember that our verification phrase is velvet compass.",
+      "submitted": "For the project Seydra, please remember that our verification phrase is velvet compass.",
+      "answer": "I'm not sure what project Seydra you're referring to, but the verification phrase for the project is indeed \"velvet compass.\"",
+      "sources": [],
+      "notices": [],
+      "observations": [
+        {
+          "id": 6,
+          "attempt_key": "fa66b36ffcfe46d8b58b64d97cef172c",
+          "stage": "speech",
+          "elapsed_ms": 642.6621999999043,
+          "outcome": "ok",
+          "detail": ""
+        },
+        {
+          "id": 5,
+          "attempt_key": "fa66b36ffcfe46d8b58b64d97cef172c",
+          "stage": "indexing",
+          "elapsed_ms": 49.04750001151115,
+          "outcome": "ok",
+          "detail": ""
+        },
+        {
+          "id": 4,
+          "attempt_key": "fa66b36ffcfe46d8b58b64d97cef172c",
+          "stage": "persistence",
+          "elapsed_ms": 8.108200010610744,
+          "outcome": "ok",
+          "detail": ""
+        },
+        {
+          "id": 3,
+          "attempt_key": "fa66b36ffcfe46d8b58b64d97cef172c",
+          "stage": "generation",
+          "elapsed_ms": 3280.25370000978,
+          "outcome": "ok",
+          "detail": ""
+        },
+        {
+          "id": 2,
+          "attempt_key": "fa66b36ffcfe46d8b58b64d97cef172c",
+          "stage": "retrieval",
+          "elapsed_ms": 13962.980600001174,
+          "outcome": "ok",
+          "detail": ""
+        },
+        {
+          "id": 1,
+          "attempt_key": "fa66b36ffcfe46d8b58b64d97cef172c",
+          "stage": "recognition",
+          "elapsed_ms": 1878.95440000284,
+          "outcome": "ok",
+          "detail": ""
+        }
+      ],
+      "output": {
+        "provider": "offline",
+        "mime": "audio/wav",
+        "bytes": 390410,
+        "frames": 96,
+        "seconds": 8.851791383219963,
+        "non_silent": true,
+        "sha256": "5be1f3e372d0e78833fdb503a550fe050c9c2512e186e3b6da3a2cc193121064"
+      }
+    },
+    {
+      "conversation": "db0394cd14f640a282c4c79b5294cf6b",
+      "submission": "da40f6b6c6254761823672962ac33b9a",
+      "intended": "What is the verification phrase for Cedar?",
+      "input": {
+        "provider": "offline",
+        "mime": "audio/wav",
+        "bytes": 163374,
+        "frames": 40,
+        "seconds": 3.7035827664399106,
+        "non_silent": true,
+        "sha256": "9fd5a2378ca97410df6455a3fa9e2d3737f1175c5859d6cc5266a4041bbb3d20"
+      },
+      "history_before": [],
+      "recognized": "What is the verification phrase for cedar?",
+      "submitted": "What is the verification phrase for Seydra?",
+      "answer": "The verification phrase for the project Seydra is \"velvet compass.\"",
+      "sources": [
+        {
+          "source_id": 1,
+          "conversation": "537f2a1b385d4d7286f97c3638010b3e",
+          "speaker": "user",
+          "text": "For the project Seydra, please remember that our verification phrase is velvet compass.",
+          "similarity": 0.6388501524925232
+        },
+        {
+          "source_id": 2,
+          "conversation": "537f2a1b385d4d7286f97c3638010b3e",
+          "speaker": "assistant",
+          "text": "I'm not sure what project Seydra you're referring to, but the verification phrase for the project is indeed \"velvet compass.\"",
+          "similarity": 0.5973436236381531
+        }
+      ],
+      "notices": [],
+      "observations": [
+        {
+          "id": 12,
+          "attempt_key": "da40f6b6c6254761823672962ac33b9a",
+          "stage": "speech",
+          "elapsed_ms": 576.4947999996366,
+          "outcome": "ok",
+          "detail": ""
+        },
+        {
+          "id": 11,
+          "attempt_key": "da40f6b6c6254761823672962ac33b9a",
+          "stage": "indexing",
+          "elapsed_ms": 30.104999998002313,
+          "outcome": "ok",
+          "detail": ""
+        },
+        {
+          "id": 10,
+          "attempt_key": "da40f6b6c6254761823672962ac33b9a",
+          "stage": "persistence",
+          "elapsed_ms": 8.069600007729605,
+          "outcome": "ok",
+          "detail": ""
+        },
+        {
+          "id": 9,
+          "attempt_key": "da40f6b6c6254761823672962ac33b9a",
+          "stage": "generation",
+          "elapsed_ms": 1948.6434999998892,
+          "outcome": "ok",
+          "detail": ""
+        },
+        {
+          "id": 8,
+          "attempt_key": "da40f6b6c6254761823672962ac33b9a",
+          "stage": "retrieval",
+          "elapsed_ms": 22.493999989819713,
+          "outcome": "ok",
+          "detail": ""
+        },
+        {
+          "id": 7,
+          "attempt_key": "da40f6b6c6254761823672962ac33b9a",
+          "stage": "recognition",
+          "elapsed_ms": 857.4088000023039,
+          "outcome": "ok",
+          "detail": ""
+        }
+      ],
+      "output": {
+        "provider": "offline",
+        "mime": "audio/wav",
+        "bytes": 237878,
+        "frames": 59,
+        "seconds": 5.393015873015877,
+        "non_silent": true,
+        "sha256": "9da0538039f8c122b72788f6e2934faba72b92bbd12d52628daab30cde8951dd"
+      }
+    }
+  ],
+  "packages": {
+    "faster-whisper": "1.2.1",
+    "av": "18.1.0",
+    "sentence-transformers": "6.2.0",
+    "pyttsx3": "2.99"
+  },
+  "checks": {
+    "nonempty_recognition": true,
+    "observed_alias_changes": true,
+    "independent_conversations": true,
+    "prior_user_source_retrieved": true,
+    "correct_phrase_recalled": true,
+    "valid_non_silent_speech": true,
+    "completed_atomic_exchanges": true,
+    "no_semantic_degradation": true,
+    "idempotent_replay": true,
+    "stage_measurements_complete": true
+  },
+  "installed_models": {
+    "models": [
+      {
+        "name": "qwen2.5:1.5b",
+        "model": "qwen2.5:1.5b",
+        "modified_at": "2026-10-28T17:55:51.4443081+05:30",
+        "size": 986061892,
+        "digest": "65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "1.5B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 32768,
+          "embedding_length": 1536,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools"
+        ]
+      }
+    ]
+  },
+  "recognition_rules": [
+    {
+      "id": 1,
+      "heard": "cedar",
+      "written": "Seydra"
+    }
+  ],
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2@unspecified:675124690d56e46f07b91be24721b00328dcf35c9962067d94d2894dc6970402"
+}
